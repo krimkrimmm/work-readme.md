@@ -1,0 +1,358 @@
+- Duolingo
+Downloads và điểm đánh giá: Rất cao, phổ biến rộng rãi với đánh giá tích cực.
+Đa ngoại ngữ: Hỗ trợ nhiều ngôn ngữ (nhưng giới hạn chiều từ ngôn ngữ này sang ngôn ngữ kia).
+Thu phí: Miễn phí có quảng cáo, subscription Duolingo Plus để bỏ quảng cáo.
+Offline: Có hỗ trợ một phần khi không có kết nối.
+AI chấm phát âm: Có, giúp kiểm tra phát âm cơ bản.
+Đa phương tiện: Chủ yếu hình ảnh và giọng nói, không nhiều video.
+Giải thích ngữ pháp: Rất ít, chủ yếu là bài tập trực quan.
+Từ điển: Không có từ điển tích hợp.
+Phân tích cấu trúc câu: Không có tính năng phân tích sâu.
+Hội thoại: Có hội thoại cơ bản.
+Quiz: Có bài tập quiz đa dạng.
+Ghép nối câu: Có các bài tập ghép câu.
+Gamification: Rất mạnh, tạo điểm số và phần thưởng để người học hứng thú.
+Kết nối mạng xã hội: Có thể kết nối và so sánh với bạn bè.
+Điểm yêu thích: Gamification và tính thân thiện với người dùng.
+Điểm chưa hài lòng: Giải thích ngữ pháp hạn chế, thiếu bài tập nâng cao.
+
+
+- Babbel
+Downloads và điểm đánh giá: Phổ biến, đánh giá tốt.
+Đa ngoại ngữ: Hỗ trợ một số ngôn ngữ phổ biến.
+Thu phí: Subscription hàng tháng và hàng năm.
+Offline: Có thể học offline.
+AI chấm phát âm: Có AI hỗ trợ phát âm.
+Đa phương tiện: Sử dụng giọng nói, hình ảnh và video.
+Giải thích ngữ pháp: Có phần giải thích ngữ pháp.
+Từ điển: Không có từ điển tích hợp.
+Phân tích cấu trúc câu: Có hướng dẫn và bài tập cấu trúc câu.
+Hội thoại: Có hội thoại với giọng nói.
+Quiz: Có các bài quiz.
+Ghép nối câu: Có các bài tập ghép câu.
+Gamification: Ít hơn so với Duolingo.
+Kết nối mạng xã hội: Không hỗ trợ kết nối mạng xã hội.
+Điểm yêu thích: Giải thích ngữ pháp chi tiết.
+Điểm chưa hài lòng: Không có bản miễn phí, gamification không mạnh.
+
+
+
+- Memrise
+Downloads và điểm đánh giá: Phổ biến, đánh giá tích cực.
+Đa ngoại ngữ: Hỗ trợ nhiều ngôn ngữ.
+Thu phí: Miễn phí với quảng cáo, có gói subscription.
+Offline: Hỗ trợ học offline.
+AI chấm phát âm: Không có.
+Đa phương tiện: Sử dụng video và giọng nói.
+Giải thích ngữ pháp: Có phần cơ bản.
+Từ điển: Không có từ điển tích hợp.
+Phân tích cấu trúc câu: Không hỗ trợ chi tiết.
+Hội thoại: Có video hội thoại.
+Quiz: Có các bài quiz.
+Ghép nối câu: Có bài tập liên quan.
+Gamification: Có gamification cơ bản.
+Kết nối mạng xã hội: Không có.
+Điểm yêu thích: Video từ người bản xứ.
+Điểm chưa hài lòng: Thiếu tính năng ngữ pháp nâng cao.
+
+
+
+- Busuu
+Downloads và điểm đánh giá: Rất phổ biến, có đánh giá tích cực.
+Đa ngoại ngữ: Hỗ trợ nhiều ngôn ngữ.
+Thu phí: Miễn phí giới hạn, subscription hàng tháng/năm.
+Offline: Có thể học offline.
+AI chấm phát âm: Có, giúp chấm điểm phát âm.
+Đa phương tiện: Có hình ảnh và âm thanh.
+Giải thích ngữ pháp: Có bài giảng ngữ pháp chi tiết.
+Từ điển: Không có từ điển tích hợp.
+Phân tích cấu trúc câu: Không có tính năng phân tích chi tiết.
+Hội thoại: Có bài tập hội thoại.
+Quiz: Có các bài quiz và bài kiểm tra.
+Ghép nối câu: Có bài tập ghép câu.
+Gamification: Có các tính năng gamification cơ bản.
+Kết nối mạng xã hội: Có cộng đồng để kết nối với người học khác.
+Điểm yêu thích: Chất lượng bài giảng ngữ pháp và có cộng đồng học tập.
+Điểm chưa hài lòng: Tính năng miễn phí bị hạn chế nhiều
+
+
+- Mondly
+Downloads và điểm đánh giá: Phổ biến, đánh giá tốt.
+Đa ngoại ngữ: Hỗ trợ nhiều ngôn ngữ.
+Thu phí: Có gói miễn phí cơ bản, subscription hàng tháng/năm.
+Offline: Hỗ trợ học offline.
+AI chấm phát âm: Có AI chấm điểm phát âm.
+Đa phương tiện: Sử dụng hình ảnh, âm thanh, và thực tế ảo (VR).
+Giải thích ngữ pháp: Có phần ngữ pháp cơ bản.
+Từ điển: Không có từ điển tích hợp.
+Phân tích cấu trúc câu: Không hỗ trợ chi tiết.
+Hội thoại: Có hội thoại với âm thanh.
+Quiz: Có quiz và bài tập đa dạng.
+Ghép nối câu: Có các bài tập ghép câu.
+Gamification: Có điểm số và bảng xếp hạng.
+Kết nối mạng xã hội: Không có tính năng mạng xã hội.
+Điểm yêu thích: Giao diện đẹp, có hỗ trợ VR.
+Điểm chưa hài lòng: Giải thích ngữ pháp chưa chi tiết.
+
+- Learn French by MindSnacks
+Downloads và điểm đánh giá: Không phổ biến như các ứng dụng khác nhưng có đánh giá khá tốt.
+Đa ngoại ngữ: Chủ yếu tập trung vào tiếng Pháp.
+Thu phí: Có gói trả phí một lần và gói subscription.
+Offline: Không hỗ trợ học offline.
+AI chấm phát âm: Không có.
+Đa phương tiện: Có hình ảnh, âm thanh và trò chơi.
+Giải thích ngữ pháp: Không có phần giải thích ngữ pháp.
+Từ điển: Không có từ điển tích hợp.
+Phân tích cấu trúc câu: Không có.
+Hội thoại: Không có hội thoại.
+Quiz: Có các trò chơi dạng quiz giúp kiểm tra kiến thức.
+Ghép nối câu: Có trò chơi ghép nối từ vựng.
+Gamification: Có tính năng gamification thông qua các trò chơi học tập.
+Kết nối mạng xã hội: Không có.
+Điểm yêu thích: Các trò chơi giúp việc học trở nên thú vị hơn.
+Điểm chưa hài lòng: Chỉ hỗ trợ một ngôn ngữ và thiếu các yếu tố giảng dạy ngữ pháp chi tiết
+ 
+- Pimsleur
+Downloads và điểm đánh giá: Phổ biến cho học ngôn ngữ qua âm thanh.
+Đa ngoại ngữ: Hỗ trợ nhiều ngôn ngữ.
+Thu phí: Subscription hàng tháng/năm.
+Offline: Có thể học offline.
+AI chấm phát âm: Không có AI, nhưng có bài tập nghe và lặp lại.
+Đa phương tiện: Chủ yếu tập trung vào âm thanh.
+Giải thích ngữ pháp: Có phần giải thích ngữ pháp trong audio.
+Từ điển: Không có từ điển tích hợp.
+Phân tích cấu trúc câu: Có trong một số bài nghe.
+Hội thoại: Có hội thoại thực tế qua âm thanh.
+Quiz: Không có quiz.
+Ghép nối câu: Không có.
+Gamification: Không có gamification.
+Kết nối mạng xã hội: Không có.
+Điểm yêu thích: Học tập qua nghe, phù hợp cho luyện kỹ năng nghe và nói.
+Điểm chưa hài lòng: Thiếu bài tập gamification, không có nội dung video.
+
+- FluentU
+Downloads và điểm đánh giá: Phổ biến trong nhóm học ngôn ngữ bằng video.
+Đa ngoại ngữ: Hỗ trợ nhiều ngôn ngữ.
+Thu phí: Subscription hàng tháng/năm.
+Offline: Có thể tải xuống một số video để học offline.
+AI chấm phát âm: Không có.
+Đa phương tiện: Video phong phú từ nhiều nguồn (YouTube, phim, chương trình).
+Giải thích ngữ pháp: Không có giải thích ngữ pháp.
+Từ điển: Có từ điển trong ứng dụng với dịch nghĩa.
+Phân tích cấu trúc câu: Không có phân tích chi tiết.
+Hội thoại: Có video hội thoại thực tế.
+Quiz: Có bài quiz sau mỗi video.
+Ghép nối câu: Không có.
+Gamification: Không có gamification mạnh.
+Kết nối mạng xã hội: Không có.
+Điểm yêu thích: Video thực tế giúp luyện nghe và nói.
+Điểm chưa hài lòng: Thiếu bài tập ngữ pháp và gamification.
+
+
+- Tandem
+Downloads và điểm đánh giá: Phổ biến, có đánh giá tích cực.
+Đa ngoại ngữ: Hỗ trợ nhiều ngôn ngữ.
+Thu phí: Miễn phí, có gói trả phí nâng cao.
+Offline: Không hỗ trợ offline.
+AI chấm phát âm: Không có AI chấm điểm phát âm.
+Đa phương tiện: Có tính năng video và voice chat.
+Giải thích ngữ pháp: Không có.
+Từ điển: Không có từ điển tích hợp.
+Phân tích cấu trúc câu: Không hỗ trợ.
+Hội thoại: Tập trung vào hội thoại với người bản ngữ qua chat hoặc call.
+Quiz: Không có quiz.
+Ghép nối câu: Không có.
+Gamification: Không có gamification.
+Kết nối mạng xã hội: Có mạng xã hội mạnh, kết nối người học và người bản ngữ.
+Điểm yêu thích: Kết nối trực tiếp với người bản ngữ.
+Điểm chưa hài lòng: Phụ thuộc nhiều vào người bản ngữ, không có bài giảng cụ thể.
+
+- Rosetta Stone
+Downloads và điểm đánh giá: Nổi tiếng và có đánh giá cao.
+Đa ngoại ngữ: Hỗ trợ nhiều ngôn ngữ.
+Thu phí: Có bản trả phí hàng tháng/năm và gói mua một lần vĩnh viễn.
+Offline: Có thể học offline với các bài học đã tải xuống.
+AI chấm phát âm: Có công nghệ nhận dạng giọng nói để chấm phát âm.
+Đa phương tiện: Hình ảnh, âm thanh, và một số video.
+Giải thích ngữ pháp: Không có bài giảng ngữ pháp chi tiết mà tập trung vào học qua ngữ cảnh.
+Từ điển: Không có từ điển tích hợp.
+Phân tích cấu trúc câu: Không có tính năng phân tích câu chi tiết.
+Hội thoại: Có bài hội thoại nhưng không phải tất cả đều có âm thanh.
+Quiz: Có bài quiz trong từng bài học.
+Ghép nối câu: Có bài tập ghép câu.
+Gamification: Không có tính năng gamification.
+Kết nối mạng xã hội: Không có.
+Điểm yêu thích: Phương pháp học qua ngữ cảnh giúp ghi nhớ tự nhiên.
+Điểm chưa hài lòng: Không có giải thích ngữ pháp chi tiết, ít tính năng tương tác.
+
+
+- Drops
+Downloads và điểm đánh giá: Tương đối phổ biến, được đánh giá cao.
+Đa ngoại ngữ: Hỗ trợ nhiều ngôn ngữ.
+Thu phí: Miễn phí giới hạn, subscription hàng tháng/năm.
+Offline: Không hỗ trợ học offline.
+AI chấm phát âm: Không có AI chấm phát âm.
+Đa phương tiện: Có hình ảnh và âm thanh.
+Giải thích ngữ pháp: Không có giải thích ngữ pháp chi tiết.
+Từ điển: Không có từ điển tích hợp.
+Phân tích cấu trúc câu: Không hỗ trợ.
+Hội thoại: Không có hội thoại.
+Quiz: Có bài tập kiểu quiz với các từ vựng.
+Ghép nối câu: Có bài tập ghép nối từ vựng.
+Gamification: Có tính năng gamification, giúp học từ vựng hiệu quả.
+Kết nối mạng xã hội: Không có.
+Điểm yêu thích: Thiết kế trực quan và giúp ghi nhớ từ vựng nhanh.
+Điểm chưa hài lòng: Không có bài giảng ngữ pháp và thiếu các bài hội thoại.
+
+
+- Beelinguapp
+Downloads và điểm đánh giá: Tương đối phổ biến, đánh giá tốt.
+Đa ngoại ngữ: Hỗ trợ nhiều ngôn ngữ.
+Thu phí: Miễn phí cơ bản, có gói trả phí hàng tháng/năm.
+Offline: Có thể tải nội dung để học offline.
+AI chấm phát âm: Không có.
+Đa phương tiện: Có âm thanh và văn bản song ngữ.
+Giải thích ngữ pháp: Không có phần giảng ngữ pháp.
+Từ điển: Không có từ điển tích hợp.
+Phân tích cấu trúc câu: Không có phân tích câu.
+Hội thoại: Không có hội thoại trực tiếp, chỉ có câu chuyện bằng âm thanh.
+Quiz: Không có quiz.
+Ghép nối câu: Không có.
+Gamification: Không có gamification.
+Kết nối mạng xã hội: Không có.
+Điểm yêu thích: Văn bản song ngữ giúp luyện đọc và nghe.
+Điểm chưa hài lòng: Thiếu tính năng tương tác và gamification.
+
+
+- HelloTalk
+Downloads và điểm đánh giá: Rất phổ biến, được đánh giá tốt.
+Đa ngoại ngữ: Hỗ trợ học nhiều ngôn ngữ.
+Thu phí: Miễn phí, có gói nâng cao.
+Offline: Không hỗ trợ học offline.
+AI chấm phát âm: Không có AI chấm phát âm.
+Đa phương tiện: Có tính năng voice và video chat.
+Giải thích ngữ pháp: Không có phần ngữ pháp.
+Từ điển: Có tích hợp từ điển dịch nghĩa.
+Phân tích cấu trúc câu: Không có.
+Hội thoại: Có thể giao tiếp với người bản ngữ qua tin nhắn và gọi.
+Quiz: Không có quiz.
+Ghép nối câu: Không có.
+Gamification: Không có gamification.
+Kết nối mạng xã hội: Có tính năng mạng xã hội mạnh mẽ, kết nối người học với người bản ngữ.
+Điểm yêu thích: Tương tác với người bản ngữ, học qua thực tế giao tiếp.
+Điểm chưa hài lòng: Không có cấu trúc bài học và giải thích ngữ pháp.
+
+
+- Innovative Language (Podcasts)
+Downloads và điểm đánh giá: Được đánh giá cao, đặc biệt là các podcast học ngôn ngữ.
+Đa ngoại ngữ: Hỗ trợ nhiều ngôn ngữ.
+Thu phí: Có gói miễn phí giới hạn và các gói subscription hàng tháng/năm.
+Offline: Có thể tải bài học về để nghe offline.
+AI chấm phát âm: Không có.
+Đa phương tiện: Chủ yếu là âm thanh và một số hình ảnh minh họa.
+Giải thích ngữ pháp: Có các bài giảng về ngữ pháp trong từng ngôn ngữ.
+Từ điển: Không có từ điển tích hợp.
+Phân tích cấu trúc câu: Không có tính năng này.
+Hội thoại: Có các hội thoại âm thanh, thường là trong các bài giảng podcast.
+Quiz: Không có quiz trong từng bài học, chủ yếu là podcast.
+Ghép nối câu: Không có.
+Gamification: Không có gamification.
+Kết nối mạng xã hội: Không có.
+Điểm yêu thích: Dễ dàng học qua nghe, phù hợp cho người thích học qua podcast.
+Điểm chưa hài lòng: Thiếu tính năng tương tác và các yếu tố gamification.
+
+
+- Lingvist
+Downloads và điểm đánh giá: Khá phổ biến, đánh giá tốt trong việc học từ vựng.
+Đa ngoại ngữ: Hỗ trợ nhiều ngôn ngữ.
+Thu phí: Có bản miễn phí giới hạn và gói subscription hàng tháng/năm.
+Offline: Có thể học offline sau khi tải bài học.
+AI chấm phát âm: Không có.
+Đa phương tiện: Có hình ảnh, chủ yếu tập trung vào từ vựng.
+Giải thích ngữ pháp: Có các bài học ngữ pháp chi tiết trong một số ngôn ngữ.
+Từ điển: Không có từ điển tích hợp nhưng có thể tra từ trong bài học.
+Phân tích cấu trúc câu: Không có tính năng phân tích câu.
+Hội thoại: Không có hội thoại âm thanh hoặc video.
+Quiz: Có bài tập kiểm tra từ vựng.
+Ghép nối câu: Có các bài tập về câu.
+Gamification: Có tính năng gamification với các thử thách học từ vựng.
+Kết nối mạng xã hội: Không có.
+Điểm yêu thích: Tập trung học từ vựng với độ khó tăng dần.
+Điểm chưa hài lòng: Không có phần hội thoại và thiếu các yếu tố đa phương tiện
+
+
+- TripLingo
+Downloads và điểm đánh giá: Được ưa chuộng cho du lịch và giao tiếp cơ bản.
+Đa ngoại ngữ: Hỗ trợ nhiều ngôn ngữ, phù hợp cho du lịch.
+Thu phí: Có bản miễn phí giới hạn và gói subscription hàng tháng/năm.
+Offline: Có thể tải các cụm từ về để sử dụng offline.
+AI chấm phát âm: Không có.
+Đa phương tiện: Có hình ảnh và âm thanh.
+Giải thích ngữ pháp: Không có bài học ngữ pháp chi tiết.
+Từ điển: Có từ điển tích hợp cho du lịch.
+Phân tích cấu trúc câu: Không có.
+Hội thoại: Có các cụm từ thông dụng với âm thanh.
+Quiz: Có bài quiz giúp ghi nhớ các cụm từ.
+Ghép nối câu: Không có tính năng này.
+Gamification: Có một số yếu tố gamification, nhưng không nổi bật.
+Kết nối mạng xã hội: Không có.
+Điểm yêu thích: Phù hợp cho du lịch với các cụm từ thông dụng.
+Điểm chưa hài lòng: Thiếu bài giảng ngữ pháp và không phù hợp cho học chuyên sâu
+
+
+
+- Best for Reading: Beelinguapp
+Downloads và điểm đánh giá: Phổ biến trong cộng đồng người học ngôn ngữ qua văn bản và có đánh giá khá cao.
+Đa ngoại ngữ: Hỗ trợ nhiều ngôn ngữ để học qua các câu chuyện và văn bản.
+Thu phí: Có gói miễn phí giới hạn và các gói subscription hàng tháng/năm để mở khóa thêm nội dung.
+Offline: Cho phép tải một số nội dung về để học offline.
+AI chấm phát âm: Không có.
+Đa phương tiện: Có âm thanh kèm theo văn bản để luyện đọc và nghe đồng thời.
+Giải thích ngữ pháp: Không có giải thích ngữ pháp chi tiết.
+Từ điển: Không có từ điển tích hợp, nhưng có thể tra cứu một số từ trong ngữ cảnh câu chuyện.
+Phân tích cấu trúc câu: Không có.
+Hội thoại: Không có hội thoại, chỉ có các văn bản và truyện song ngữ.
+Quiz: Không có quiz.
+Ghép nối câu: Không có.
+Gamification: Không có nhiều yếu tố gamification.
+Kết nối mạng xã hội: Không có.
+Điểm yêu thích: Phù hợp cho việc học qua các câu chuyện song ngữ, giúp cải thiện kỹ năng đọc hiểu.
+Điểm chưa hài lòng: Thiếu tính năng tương tác và các bài tập giúp học từ vựng hoặc ngữ pháp cụ thể.
+
+ 
+- Lirica
+Downloads và điểm đánh giá: Được ưa chuộng trong việc học ngôn ngữ qua âm nhạc, có đánh giá khá tốt.
+Đa ngoại ngữ: Tập trung chủ yếu vào tiếng Tây Ban Nha và tiếng Đức qua âm nhạc.
+Thu phí: Có gói miễn phí giới hạn và subscription để truy cập nhiều bài hát hơn.
+Offline: Không hỗ trợ học offline.
+AI chấm phát âm: Không có.
+Đa phương tiện: Sử dụng video âm nhạc và lời bài hát để học.
+Giải thích ngữ pháp: Có một số giải thích ngữ pháp cơ bản trong ngữ cảnh bài hát.
+Từ điển: Không có từ điển tích hợp.
+Phân tích cấu trúc câu: Không có.
+Hội thoại: Không có hội thoại, chỉ có lời bài hát và âm nhạc.
+Quiz: Có quiz nhỏ liên quan đến từ vựng trong lời bài hát.
+Ghép nối câu: Không có.
+Gamification: Có yếu tố gamification thông qua việc ghi điểm trong các bài quiz.
+Kết nối mạng xã hội: Không có.
+Điểm yêu thích: Học ngôn ngữ qua lời bài hát giúp nhớ từ vựng dễ dàng hơn và tạo cảm hứng học.
+Điểm chưa hài lòng: Chỉ hỗ trợ một số ít ngôn ngữ và không có nội dung ngoài âm nhạc.
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
