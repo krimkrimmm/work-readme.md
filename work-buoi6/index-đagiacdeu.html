@@ -1,0 +1,97 @@
+<!--Hãy lập trình hàm javascript để vẽ lên HTML canvas như sau:
+- tham số truyền vào: N số các đỉnh một đa giác đều. N >= 5
+- tọa độ (x, y) của điểm C tâm của hình
+- R: khoảng cách từ điểm C đến các đỉnh
+thực hiện hàm:
+- Vẽ N đỉnh cách điểm C một khoảng cách R. Các đỉnh sẽ cách đều nhau để tạo thành một đa giác lồi, đều.
+
+- Từ mỗi đỉnh vẽ đoạn thẳng nối đến các đỉnh còn lại ngoại trừ 2 đỉnh kề cận (gần nó nhất)
+Ví dụ với N = 5 thì sẽ vẽ được hình ngôi sao 5 cánh-->
+<!DOCTYPE html><!--Khai báo loại tài liệu là HTML5-->
+<html lang="en"><!--Thiết lập ngôn ngữ cho tài liệu là tiếng Anh-->
+<head>     
+    <meta charset="UTF-8"><!--Đặt mã hóa ký tự là UTF-8 (hỗ trợ các ký tự đặc biệt).-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><!--Tối ưu cho trình duyệt Internet Explorer, dùng chế độ tương thích mới nhất.-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Đảm bảo trang web hiển thị tốt trên thiết bị di động bằng cách điều chỉnh kích thước viewport.-->
+    <title>Đa giác đều</title>    
+
+</head>
+<body>
+    <canvas id="myCanvas" width="500" height="500"></canvas>
+    <!--Tạo một phần tử <canvas> để vẽ đồ họa-->
+    <!--id="myCanvas": Đặt định danh để tham chiếu trong JavaScript.-->
+    <!--width="500" height="500": Đặt kích thước vùng vẽ là 500px x 500px.-->
+    <script>//Phần JavaScript
+        function veDaGiac(ctx, n, x, y, r)
+        //ctx: Đối tượng CanvasRenderingContext2D để vẽ.
+      
+        //n: Số cạnh của đa giác.
+        //x, y: Tọa độ tâm của đa giác.
+        //r: Bán kính của đa giác.
+        {
+            if(n < 5)//Nếu n < 5, tự động đặt n = 5 (đa giác phải có ít nhất 5 cạnh).
+            {     
+                n = 5;
+            }
+            const cacDiem = [];
+            
+            //tính góc giữa các đỉnh
+            const cacGoc = (Math.PI * 2) / n ;
+            //tính tọa độ các đỉnh
+            for (var i=0; i<n; i++){//Duyệt qua tất cả các đỉnh của đa giác (từ 0 đến n−1).
+                const goc = cacGoc * i;//Góc của mỗi đỉnh tính từ tâm.
+                const diemX = x + r * Math.cos(goc);//
+
+                const diemY = y + r * Math.sin(goc);//
+                cacDiem.push({ x: diemX, y: diemY});//
+            }    
+            //vẽ các cạnh của đa giác
+            ctx.beginPath();//Bắt đầu một đường vẽ mới.
+            for(var i=0; i<n; i++){    
+                const { x: x1, y: y1 } = cacDiem[i];//Lấy tọa độ hiện tại (x1,y1) 
+                const { x: x2, y: y2 } = cacDiem[(i+1) % n];//Lấy tọa độ đỉnh tiếp theo (x2,y2) (đỉnh cuối nối lại với đỉnh đầu nhờ (i+1)%n                
+                ctx.moveTo( x1, y1);//Di chuyển bút vẽ đến(x1,y1)
+
+                ctx.lineTo( x2, y2);//Vẽ đường thẳng đến (x2,y2) 
+            }
+            
+            ctx.stroke();//Vẽ các đường thẳng nối các đỉnh   
+            //nối đỉnh với các đỉnh ko liền kề
+            ctx.beginPath();
+            for(var i=0; i<n; i++){//Với mỗi đỉnh i
+                for(var j= i+2; j < i+n-1; j++){//Nối đỉnh i với tất cả các đỉnh từ i+2 đến i+n-2(không nối với chính nó hoặc đỉnh liền kề).
+                    const { x: x1, y: y1 } = cacDiem[i];
+                    const { x: x2, y: y2 } = cacDiem[j % n];// Giúp nối vòng tròn khi chỉ số vượt quá số đỉnh.
+                  
+                    ctx.moveTo( x1, y1);
+                    ctx.lineTo( x2, y2);
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                }
+            }     
+            ctx.stroke();
+        }
+        const canvas = document.getElementById("myCanvas");//Lấy phần tử <canvas> từ DOM.
+        const ctx = canvas.getContext("2d");//Lấy đối tượng ngữ cảnh vẽ 2D.
+        veDaGiac(ctx, 7, 200, 200, 150);//Vẽ một đa giác 7 cạnh
+        //Tâm tại (200,200)
+
+        //Bán kính là 150px.      
+    </script>
+
+</body>
+</html>        
+
+
+
+
+

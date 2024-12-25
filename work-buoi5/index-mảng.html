@@ -1,0 +1,89 @@
+<!--lam sao de random vtri mảng hai chieu-->
+<!--Phần HTML-->
+<!DOCTYPE html><!--Khai báo loại tài liệu HTML5-->
+<html lang="en"><!--Ngôn ngữ tài liệu là tiếng Anh-->
+<head>
+    <meta charset="UTF-8"><!--Đặt mã hóa ký tự là UTF-8 (hỗ trợ tốt các ngôn ngữ như tiếng Việt).-->
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Đảm bảo giao diện hiển thị đẹp trên các thiết bị di động.-->
+    <title>Random vị trí mảng hai chiều</title>
+   <!--CSS - Định dạng bảng-->  
+   <style>
+    table {
+        border-collapse: collapse; /* Gộp các đường viền giữa các ô */
+        margin: 20px 0; /* Khoảng cách bảng với phần tử khác */
+    }
+    td 
+    {
+        border: 1px solid #000; /* Đường viền ô */
+        padding: 10px; /* Khoảng cách giữa nội dung và viền */
+        text-align: center; /* Căn giữa nội dung */
+        width: 40px;
+        height: 40px;
+    }
+</style>
+</head>
+<body><!--Nội dung chính của phần thân-->
+    
+    <h1>Random vị trí mảng hai chiều</h1>
+    <table id="original"></table><!-- Bảng hiển thị mảng ban đầu -->
+    <button onclick="shuffleArray()">Shuffle</button><!-- Nút bấm để xáo trộn -->
+    <table id="shuffled"></table><!-- Bảng hiển thị mảng sau xáo trộn -->
+    <script>//Chức năng chính
+        // Tạo mảng 2 chiều
+        //Mảng 2D gốc: Gồm 3 hàng, mỗi hàng chứa 3 phần tử 
+        const array2D = [
+            ['A', 'A', 'B'],
+            ['C', 'C', 'D'],
+            ['E', 'E', 'F']
+        ];
+        // Hàm hiển thị mảng dưới dạng bảng
+        function displayArray(array, tableId) {
+            const table = document.getElementById(tableId);
+            table.innerHTML = ''; // Xóa nội dung cũ
+            array.forEach(row => {
+                const tr = document.createElement('tr');// Tạo hàng
+                row.forEach(cell => 
+                {
+                    const td = document.createElement('td');// Tạo ô
+                    td.textContent = cell;// Gán nội dung
+                    tr.appendChild(td);// Thêm ô vào hàng
+                });
+                table.appendChild(tr);// Thêm hàng vào bảng
+            });
+        }     
+        // Chuyển mảng 2D thành 1D, shuffle, và chuyển ngược lại
+        //Hàm xáo trộn mảng
+        
+        function shuffleArray() {
+            // Chuyển mảng 2D thành mảng 1D
+            const flatArray = array2D.flat();//array2D.flat(): Biến mảng 2 chiều thành mảng 1 chiều.
+            // Xáo trộn mảng 1D
+            for (let i = flatArray.length - 1; i > 0; i--) {//Sử dụng thuật toán Fisher-Yates Shuffle
+                const j = Math.floor(Math.random() * (i + 1));//Duyệt từ cuối mảng về đầu, chọn ngẫu nhiên chỉ số j
+                [flatArray[i], flatArray[j]] = [flatArray[j], flatArray[i]];}//Hoán đổi hai phần tử flatArray[i] và flatArray[j]
+            // Chuyển mảng 1D ngẫu nhiên thành mảng 2D
+            const shuffled2D = [];
+           
+            while (flatArray.length) {
+                shuffled2D.push(flatArray.splice(0, 3));} // Chia thành các hàng 3 phần tử  
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+          
+            // Hiển thị kết quả
+            displayArray(shuffled2D, 'shuffled');
+        }
+        // Hiển thị mảng gốc ban đầu
+        displayArray(array2D, 'original');//Gọi hàm displayArray để hiển thị mảng gốc trong bảng có id="original"
+    </script>
+
+</body>
+</html>          

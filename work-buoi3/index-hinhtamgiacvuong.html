@@ -1,0 +1,50 @@
+<!--Dùng canvas vẽ tam giác vuông
+tọa độ đỉnh cao bên trái là (50,50)
+cạnh dài 200 pixels, cạnh cao 100 pixels-->
+<!--Khai báo tài liệu HTML-->
+<!DOCTYPE html><!--Xác định tài liệu này tuân theo tiêu chuẩn HTML5.-->
+<html lang="en"><!--Tài liệu sử dụng ngôn ngữ chính là tiếng Anh.-->
+
+<head>
+    <meta charset="UTF-8"><!--Đặt mã hóa ký tự là UTF-8, hỗ trợ đa ngôn ngữ và ký tự đặc biệt.-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Tối ưu hiển thị trên các thiết bị (desktop, mobile)-->
+    <title>Vẽ tam giác vuông</title><!--Tiêu đề của trang web, hiển thị trên tab trình duyệt là "Vẽ tam giác vuông".-->
+</head>
+<!--Phần nội dung chính:-->
+<body>            
+    <canvas id="myCanvas" width="300" height="200" style="border:1px solid #000000;"></canvas>
+    <!--<canvas>: Một vùng vẽ đồ họa 2D trên trang web.-->
+    
+    <!--id="myCanvas": Đặt ID để dễ dàng tham chiếu bằng JavaScript-->
+    <!--width="300" height="200": Kích thước của canvas (300px chiều rộng, 200px chiều cao).-->
+    <!--style="border:1px solid #000000;": Thêm viền đen 1px quanh canvas-->
+    
+    <script>//Script vẽ tam giác
+        // Lấy đối tượng canvas
+        var canvas = document.getElementById("myCanvas");//Lấy đối tượng <canvas> có ID là "myCanvas"
+        var ctx = canvas.getContext("2d");//Lấy ngữ cảnh đồ họa 2D để thực hiện các thao tác vẽ
+        // Bắt đầu vẽ tam giác
+       
+        ctx.beginPath();//Bắt đầu một đường vẽ mới.
+        ctx.moveTo(50, 50);// Đỉnh cao bên trái của tam giác
+                           //Đặt bút tại tọa độ (50, 50)
+        ctx.lineTo(250, 50);// Đỉnh bên phải (cạnh dài 200 pixels)
+                            //Vẽ đường thẳng từ điểm hiện tại (50, 50) đến (250, 50)
+        ctx.lineTo(50, 150);// Đỉnh dưới (cạnh cao 100 pixels)
+                            //Vẽ đường từ (250, 50) đến (50, 150)
+        ctx.closePath();//Tự động nối điểm cuối (50, 150) về lại điểm đầu (50, 50), tạo thành hình tam giác khép kín.
+
+
+        // Tô màu tam giác
+        ctx.fillStyle = "purple";//Đặt màu tô của tam giác là màu tím
+        ctx.fill();//Tô màu cho hình tam giác vừa vẽ
+         //Một tam giác vuông màu tím được vẽ trên canvas:    
+    //Góc vuông nằm ở tọa độ (50, 50)
+    //Cạnh dài (200 pixels) chạy ngang từ (50, 50) đến (250, 50). 
+    //Cạnh cao (100 pixels) chạy từ (50, 50) đến (50, 150).    
+    </script>     
+</body>
+
+</html>
+
+ 

@@ -1,0 +1,40 @@
+<!--Dùng canvas vẽ hình chữ nhật màu đỏ
+tọa độ đỉnh cao bên trái là (50,50)
+Dài 200 pixels
+Cao 100 pixel-->      
+<!--Phần khai báo cơ bản-->
+<!DOCTYPE html><!--Xác định tài liệu này sử dụng phiên bản HTML5.-->
+
+<html lang="en"><!--Bắt đầu tài liệu HTML và xác định ngôn ngữ là tiếng Anh-->
+<head><!--Chứa metadata của tài liệu-->
+    <meta charset="UTF-8"><!--Đặt bảng mã ký tự là UTF-8, giúp hiển thị tốt các ký tự đặc biệt.-->     
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Đảm bảo trang web hiển thị tốt trên mọi kích thước màn hình.-->
+    <title>Vẽ hình chữ nhật</title><!--Tiêu đề của trang, hiển thị trên tab của trình duyệt.-->
+</head>
+<!--Phần nội dung chính:-->
+<body>   
+    <canvas id="myCanvas" width="300" height="200" style="border:1px solid #000000;"></canvas>
+    
+    <!--<canvas>: Tạo một khu vực để vẽ đồ họa bằng JavaScript.-->     
+    <!--id="myCanvas": Đặt ID để truy cập và xử lý canvas trong JavaScript.-->
+    <!--width="300" height="200": Xác định kích thước của canvas (300px x 200px).--> 
+    <!--style="border:1px solid #000000;": Thêm viền đen 1 pixel cho canvas để dễ nhìn.--> 
+    
+    <script>//Chứa mã JavaScript để thao tác với canvas.
+        // Lấy đối tượng canvas
+        var canvas = document.getElementById("myCanvas");//Lấy phần tử <canvas> có id="myCanvas" và lưu vào biến canvas
+        var ctx = canvas.getContext("2d");//Lấy ngữ cảnh 2D (2D rendering context) của canvas để thực hiện các thao tác vẽ.
+
+        // Đặt màu đỏ
+        ctx.fillStyle = "red";//ctx:viết tắt của "context", đại diện cho ngữ cảnh vẽ 2D.
+                              //Đặt màu tô là màu đỏ. Lệnh này ảnh hưởng đến các hình được vẽ sau đó
+        // Vẽ hình chữ nhật
+        ctx.fillRect(50, 50, 200, 100);//Vẽ một hình chữ nhật:
+                                   //Tọa độ góc trên cùng bên trái là (50, 50) tính từ góc trên bên trái của canvas.
+                                   //Chiều rộng của hình chữ nhật là 200px.      
+                                   //Chiều cao của hình chữ nhật là 100px.
+                                   //Hình chữ nhật được tô đầy màu đỏ (nhờ fillStyle đã đặt trước).
+
+    </script>
+</body>
+</html>

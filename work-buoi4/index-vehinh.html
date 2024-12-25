@@ -1,0 +1,68 @@
+<!--Hãy dùng canvas để vẽ ra hình đồng thời 3 hình sau đây, tô mầu như yêu cầu
+sau đó viết mô tả như dưới
+Hình vuông
+xoay góc 45 độ
+Hình ngũ giác đều
+Hình lục giác đều-->
+
+<!--Phần HTML-->
+<!DOCTYPE html><!--Khai báo kiểu tài liệu HTML5-->
+<html lang="en"><!--Thẻ bao bọc nội dung HTML, ngôn ngữ là tiếng Anh (lang="en").-->
+<head><!--Phần đầu trang, chứa thông tin cấu hình-->
+    <meta charset="UTF-8"><!--Đặt mã hóa ký tự UTF-8 (hỗ trợ tiếng Việt)-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!---->
+    <title>Vẽ nhiều hình trên canvas</title><!--Điều chỉnh giao diện thân thiện với thiết bị di động.-->
+</head>
+<!--Phần <body> và <canvas>-->
+
+<body>
+    <canvas id="myCanvas" width="400" height="400" style="border:1px solid #000000;"></canvas>
+    <!--<canvas>: Thẻ HTML tạo vùng vẽ đồ họa 2D (hoặc 3D)-->
+    <!--id="myCanvas": Đặt ID để tham chiếu trong JavaScript.-->
+    <!--width="400" height="400": Kích thước vùng canvas (400px x 400px).-->
+    <!--style="border:1px solid #000000;": Thêm đường viền màu đen xung quanh canvas.-->
+    <script>//Phần JavaScript
+        var canvas = document.getElementById("myCanvas");//Lấy phần tử canvas qua ID.
+        var ctx = canvas.getContext("2d");//Lấy ngữ cảnh vẽ 2D để thực hiện các thao tác đồ họa.
+
+        // Vẽ hình vuông xoay 45 độ
+        ctx.save();// Lưu (save)
+        ctx.translate(100, 100); // Dịch chuyển đến vị trí (100, 100)
+        ctx.rotate(Math.PI / 4); // Xoay góc 45 độ (PI/4 radian)
+        ctx.fillStyle = "purple";//// Màu tô: tím
+        ctx.fillRect(-50, -50, 100, 100); // Vẽ hình vuông với tâm là (0,0)
+        ctx.restore();//khôi phục (restore) trạng thái ngữ cảnh vẽ để tránh ảnh hưởng đến các hình khác.
+        // Vẽ hình ngũ giác đều
+        ctx.beginPath();
+
+        ctx.fillStyle = "green";//Màu tô: xanh lá
+        const pentagonRadius = 50;//Bán kính ngũ giác
+        const pentagonCenterX = 250;
+        const pentagonCenterY = 100;// Tâm ngũ giác
+        for (let i = 0; i < 5; i++) {
+            const angle = (Math.PI * 2 / 5) * i - Math.PI / 2;//Góc quay từng đỉnh
+            const x = pentagonCenterX + pentagonRadius * Math.cos(angle);//Tọa độ x
+            const y = pentagonCenterY + pentagonRadius * Math.sin(angle);//Tọa độ y
+            ctx.lineTo(x, y);//Nối đến từng đỉnh
+        }        
+        ctx.closePath();//Kết thúc đường vẽ
+        ctx.fill();//Tô màu
+        // Vẽ hình lục giác đều
+        ctx.beginPath();
+        ctx.fillStyle = "yellow";// Màu tô: vàng
+        const hexagonRadius = 50;// Bán kính lục giác
+        const hexagonCenterX = 100;
+        const hexagonCenterY = 250;// Tâm lục giác
+        for (let i = 0; i < 6; i++)
+         {
+            const angle = (Math.PI * 2 / 6) * i - Math.PI / 2;// Góc quay từng đỉnh
+            const x = hexagonCenterX + hexagonRadius * Math.cos(angle);// Tọa độ x
+            const y = hexagonCenterY + hexagonRadius * Math.sin(angle);// Tọa độ y
+            ctx.lineTo(x, y);// Nối đến từng đỉnh
+        }
+        ctx.closePath();// Kết thúc đường vẽ
+        ctx.fill();// Tô màu
+    </script>
+</body>
+
+</html>

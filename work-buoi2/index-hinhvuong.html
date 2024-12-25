@@ -1,0 +1,49 @@
+<!--Dùng canvas vẽ hình vuông màu đỏ
+tọa độ đỉnh cao bên trái là (50,50)
+kích thước 100 pixels
+Sát cạnh nó là hình vuông màu xanh
+kích thước 100 pixels-->
+
+
+<!--Khai báo HTML cơ bản-->
+<!DOCTYPE html><!--Xác định tài liệu này tuân theo tiêu chuẩn HTML5.-->
+<html lang="en"><!--Tài liệu sử dụng ngôn ngữ chính là tiếng Anh.-->
+<head><!--Chứa metadata của tài liệu-->
+    <meta charset="UTF-8"><!--Đặt mã ký tự là UTF-8 để hỗ trợ các ngôn ngữ và ký tự đặc biệt.-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Đảm bảo giao diện hiển thị tốt trên mọi thiết bị (desktop và mobile).-->
+    <title>Vẽ hai hình vuông</title><!--Tiêu đề của trang web hiển thị trên tab trình duyệt là "Vẽ hai hình vuông".
+    -->
+</head>
+
+<!--Phần nội dung chính:-->
+<body>
+    <canvas id="myCanvas" width="300" height="200" style="border:1px solid #000000;"></canvas>
+    <!--Thẻ <canvas>: Là vùng để vẽ đồ họa 2D.-->
+    <!--id="myCanvas": Đặt ID cho canvas để dễ dàng tham chiếu bằng JavaScript.-->
+    <!--width="300" height="200": Kích thước của canvas (300px chiều rộng, 200px chiều cao).-->
+    <!--style="border:1px solid #000000;": Thêm viền đen 1px quanh canvas.-->
+   
+   <script>// Script vẽ hình vuông
+
+        // Lấy đối tượng canvas
+        var canvas = document.getElementById("myCanvas");//getElementById("myCanvas"): Lấy đối tượng <canvas> với ID là "myCanvas".
+        var ctx = canvas.getContext("2d");//getContext("2d"): Lấy ngữ cảnh đồ họa 2D của canvas để thực hiện các thao tác vẽ.
+
+        // Vẽ hình vuông màu đỏ
+        ctx.fillStyle = "red";// Đặt màu vẽ là màu đỏ
+        ctx.fillRect(50, 50, 100, 100);//Vẽ một hình vuông      
+        //Góc trên bên trái ở tọa độ (50, 50).
+        //Chiều rộng và chiều cao là 100px
+
+        // Vẽ hình vuông màu xanh sát bên hình màu đỏ
+        ctx.fillStyle = "blue";//Góc trên bên trái ở tọa độ (150, 50)
+        ctx.fillRect(150, 50, 100, 100);//Chiều rộng và chiều cao là 100px.
+        //Hình này nằm sát hình màu đỏ
+         //Hai hình vuông được vẽ trên canvas:
+    //Hình màu đỏ nằm ở bên trái.
+    //Hình màu xanh nằm sát bên phải hình màu đỏ
+    </script>
+</body>
+
+</html>
+ 
