@@ -1,0 +1,30 @@
+<!--
+    Bài tập tiếp theo: hãy lập trình JavaScript, Canvas để mô phỏng con lắc đơn (single pendulum).
+    Con lắc ở vị trí ổn định ban đầu (góc alpha=0). Hãy kéo con lắc sang trái một góc alpha khác 0 rồi thả. Con lắc chịu lực tác động trọng trường g=9.8m/s^2 sẽ dao động quanh vị trí ổn định.
+    Nếu không có lực cản, lực ma sát với không khí, con lắc sẽ dao động vĩnh cửu. Tạm bỏ qua lực Coriollis (trái đất vẫn quay).
+    Nhiệm vụ của lập trình viên: hãy minh hoạ dao động của con lắc đơn. Gợi ý sử dụng hàm timer định thời hoặc hàm delay. Bước thời gian đủ ngắn sẽ khiến mắt con người không cảm nhật được hoạt hình giật cục
+    các tham số: chiều dài dây con lắc là L, góc ban đầu là alpha, gia tốc g.
+    
+    Chia yêu cầu này ra thành nhiều bước
+    1- tìm hiểu hàm chuyển động con lắc, chu kỳ dao động
+    2- viết hàm tính toán gia tốc, vận tốc, rồi ví trí hoặc đơn giản chỉ tính lại toạ độ theo góc alpha của con lắc-->
+  
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Con Lắc Đơn</title>
+    <link rel="stylesheet" href=".asets/css/styles.css">     
+</head>
+<body>
+    <div class="container">
+        <canvas id="pendulumCanvas" width="400" height="400"></canvas>
+    </div>
+    <script src="assets/js/pendulum.js"></script>
+</body>
+
+</html>
+
+ 
